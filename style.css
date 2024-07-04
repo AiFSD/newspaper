@@ -1,0 +1,373 @@
+body {
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+.heading {
+    background-color: rgba(128, 128, 128, 0.034);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h {
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+
+    padding: 1rem;
+}
+
+.h .america {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.h .india {
+    color: orange;
+    border: 2px solid black;
+}
+
+.h .today {
+    color: green;
+    border: 2px solid black;
+}
+
+.container {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 200px 2fr 1fr;
+    margin-top: 20px;
+}
+
+.para {
+    height: 200px;
+    background-color: rgba(22, 21, 21, 0.151);
+    ;
+}
+
+.para2 {
+    grid-row: span 2;
+    background-color: rgba(22, 21, 21, 0.151);
+    ;
+    border: 4px solid black;
+}
+
+.para3 {
+    padding: 5px;
+    border: 2px solid black;
+    grid-row: span 2;
+    background-color: rgba(22, 21, 21, 0.151);
+    ;
+}
+
+.row1 {
+    background-color: whitesmoke;
+    margin-top: -20px;
+}
+
+.img img {
+    object-fit: cover;
+    height: 160px;
+    width: 100%;
+    display: block;
+    margin-top: -22px;
+}
+
+.row1 {
+    text-align: center;
+}
+
+.img1 img {
+    object-fit: cover;
+    height: 160px;
+    width: 100%;
+
+    margin-top: -22px;
+}
+
+.main {
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
+
+.dood {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5px;
+}
+
+.content img {
+    display: block;
+    object-fit: cover;
+}
+
+.sec {
+    background-color: rgb(211, 211, 211);
+    height: 40px;
+    display: grid;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.para3 img {
+    height: 100px;
+}
+
+.new1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.MainContent {
+
+    display: flex;
+    gap: 30px;
+}
+
+.pic {
+    background-color: rgba(22, 21, 21, 0.151);
+    height: 220px;
+    width: 195px;
+    text-align: center;
+    font-size: xx-large;
+    border: solid 1px black;
+}
+
+.hContent1 {
+    padding: 12px;
+    background-color: rgba(22, 21, 21, 0.151);
+    width: 330px;
+    height: 1000px;
+}
+
+.hContent2 {
+    padding: 5px;
+    background-color: rgba(22, 21, 21, 0.151);
+    height: 1020px;
+    width: 330px;
+
+}
+
+.hContent3 {
+
+    background-color: rgba(22, 21, 21, 0.151);
+    height: 1020px;
+    width: 330px;
+    padding: 12px;
+}
+
+.block {
+    display: flex;
+
+}
+
+#wiz {
+    height: 180px;
+    width: 195px;
+}
+
+#ramos {
+    height: 180px;
+    width: 195px;
+}
+
+#elon {
+    height: 180px;
+    width: 195px;
+}
+
+#trumph {
+    height: 180px;
+    width: 195px;
+}
+
+#ai {
+    height: 280px;
+    width: 280px;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.content3 {
+    border-top: 2px solid black;
+}
+
+#tata {
+    height: 130px;
+    width: 140px;
+    float: right;
+    margin-top: 10px;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+#sundar {
+    height: 140px;
+    border: 1px solid black;
+    float: right;
+}
+
+#virat {
+    border: 4px solid black;
+    margin-right: 10px;
+    float: right;
+}
+
+/* Add a max-width to the container to make it responsive */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Media queries */
+
+/* Desktop screen */
+@media (max-width: 1200px) {
+    .pic {
+        width: 150px;
+        height: 180px;
+    }
+
+    .hContent1,
+    .hContent2,
+    .hContent3 {
+        width: 250px;
+        height: 800px;
+    }
+
+    #wiz,
+    #ramos,
+    #elon,
+    #trumph {
+        height: 150px;
+        width: 120px;
+    }
+
+    #ai {
+        height: 230px;
+        width: 230px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    #tata {
+        height: 100px;
+        width: 110px;
+        float: right;
+        margin-top: 5px;
+        padding: 2px;
+    }
+
+    #sundar {
+        height: 110px;
+        float: right;
+    }
+
+    #virat {
+        border: 3px solid black;
+        margin-right: 10px;
+        float: right;
+    }
+}
+
+/* Tablet screen */
+@media (max-width: 992px) {
+    .pic {
+        width: 100px;
+        height: 120px;
+    }
+
+    .hContent1,
+    .hContent2,
+    .hContent3 {
+        width: 200px;
+        height: 600px;
+    }
+
+    #wiz,
+    #ramos,
+    #elon,
+    #trumph {
+        height: 120px;
+        width: 100px;
+    }
+
+    #ai {
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    #tata {
+        height: 90px;
+        width: 100px;
+        float: right;
+        margin-top: 5px;
+        padding: 2px;
+    }
+
+    #sundar {
+        height: 100px;
+        float: right;
+    }
+
+    #virat {
+        border: 2px solid black;
+        margin-right: 10px;
+        float: right;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 768px) {
+    .pic {
+        width: 100%;
+        height: 150px;
+    }
+
+    .hContent1,
+    .hContent2,
+    .hContent3 {
+        width: 100%;
+        height: 400px;
+    }
+
+    #wiz,
+    #ramos,
+    #elon,
+    #trumph {
+        height: 150px;
+        width: 100%;
+    }
+
+    #ai {
+        height: 250px;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    #tata {
+        height: 80px;
+        width: 90px;
+        float: right;
+        margin-top: 5px;
+        padding: 2px;
+    }
+
+    #sundar {
+        height: 90px;
+        float: right;
+    }
+
+    #virat {
+        border: 1px solid black;
+        margin-right: 10px;
+        float: right;
+    }
+}
